@@ -1,47 +1,93 @@
-﻿{
-  "AscendingRpmValues": "Aufsteigende RPM-Werte",
-  "CalibrationCommand": "Befehl (%)",
-  "CalibrationControlCardInstructions": "Mit der folgenden Karte kannst du den Lüfter-%-Wert anpassen und die RPM beobachten.",
-  "CalibrationPointPercent": "Punkt-%",
-  "CalibrationSpeed": "Drehzahl (RPM)",
-  "CalibrationTable": "Kalibrierungstabelle",
-  "ControlHelpPart1": "Der Bereich \"Steuerungen\" zeigt jeden verfügbaren Header/Lüfter, der erkannt wurde.",
-  "ControlHelpPart2": "Du kannst entweder eine Lüfterkurve zuweisen oder über das Drei-Punkte-Menü jeder Karte in den manuellen Steuerungsmodus wechseln.",
-  "ControlHelpPart3": "Im Drei-Punkte-Menü jeder Karte kannst du einen Lüfterdrehzahlsensor aus dem unteren Abschnitt zuordnen, wodurch die RPM auf der Steuerungskarte angezeigt wird.",
-  "ControlHelpPart4": "Folgende erweiterte Optionen sind verfügbar, wenn du auf den unteren Bereich einer Karte klickst:",
-  "CurveHelpPart1": "Der Bereich \"Kurven\" zeigt alle erstellten Kurven.",
-  "CurveHelpPart2": "Um eine neue Kurve zu erstellen, klicke auf das große \"+\"-Symbol unten rechts und wähle aus den verfügbaren Typen.",
-  "CurveHelpPart3": "Um Details darüber zu erhalten, wie ein bestimmter Lüfterkurventyp funktioniert, füge ihn hinzu und klicke auf das Symbol oben links auf der Karte.",
-  "CustomSensorsHelpPart1": "Der Bereich \"Benutzerdefinierte Sensoren\" zeigt alle erstellten benutzerdefinierten Sensoren.",
-  "CustomSensorsHelpPart2": "Um einen neuen benutzerdefinierten Sensor zu erstellen, klicke auf das große \"+\"-Symbol unten rechts und wähle aus den verfügbaren Typen.",
-  "CustomSensorsHelpPart3": "Um Details darüber zu erhalten, wie ein bestimmter benutzerdefinierter Sensortyp funktioniert, füge ihn hinzu und klicke auf das Symbol oben links auf der Karte.",
-  "EULA": "EULA",
-  "FailedRefreshSleep": "Fehler beim Neuladen nach dem Aufwachen aus dem Ruhezustand",
-  "GraphCopy": "Diagramm kopieren",
-  "GraphPaste": "Diagramm einfügen",
-  "GraphSelectedPoint": "Ausgewählter Punkt:",
-  "HidePopup": "Dieses Popup in Zukunft ausblenden",
-  "InitFailedRetry": "Fan Control konnte nicht initialisiert werden. Erneuter Versuch …",
-  "ManualPairingInstruction": "Wähle den untenstehenden Drehzahlsensor aus, der auf diese Steuerung reagiert.",
-  "ManualPairingTip": "(Tipp: Setze den Schieberegler auf 0 % und sieh nach, welcher Lüfter langsamer wird/stehenbleibt)",
-  "OtherInstance": "Eine andere Instanz von FanControl lief unter dem Benutzer \"{0}\". Sie wurde geschlossen, um diese neue Instanz zu starten.",
-  "PaypalDialogPart1": "Nachricht vom Entwickler von Fan Control",
-  "PaypalDialogPart2": "Hey! Hier ist Rémi.",
-  "PaypalDialogPart3a": "Wie ich sehe, hast du einige Lüfterkurven eingerichtet, sehr schön! 🚀🙌",
-  "PaypalDialogPart3b": "Du hast noch keine Lüfterkurve erstellt, klicke auf den großen „+“-Button unten rechts, um loszulegen! 🚀🙌",
-  "PaypalDialogPart4": "Die Software wird kontinuierlich weiterentwickelt, um bessere Leistung, weniger Fehler, mehr Funktionen und eine bessere Benutzererfahrung zu bieten. Das erfordert Zeit und Aufwand.",
-  "PaypalDialogPart5": "Fan Control ist kostenlos, aber wenn es dir so gut gefällt, dass du es auf deinem Rechner einsetzt, denk doch mal darüber nach, es mit anderen zu teilen, über PayPal zu spenden oder mich auf Github zu unterstützen. Dafür wäre ich dir sehr dankbar! 😊",
-  "PaypalDialogPart6": "Falls du Probleme mit der Software hast oder einfach Feedback geben möchtest, gibt es einen E-Mail-Link im Bereich \"Über\", ansonsten kannst du auch die Github-Seite aufrufen.",
-  "PaypalDialogPart7": "Danke, dass du Fan Control benutzt! 🙏",
-  "PlatformNotSupported": "Dein Betriebssystem wird nicht unterstützt. Windows 10 oder höher ist erforderlich.",
-  "ReadEULA": "Nimm dir einen Moment Zeit, um die Endbenutzer-Lizenzvereinbarung zu lesen. Sie ist kurz, ich verspreche es. Du kannst sie später jederzeit im Abschnitt Über nachlesen.",
-  "RefreshingAfterSleep": "Fan Control neu geladen nach dem Aufwachen aus dem Ruhezustand",
-  "SpeedHelpPart1": "Der Bereich \"Drehzahlen\" zeigt jeden erkannten verfügbaren RPM-Sensor an.",
-  "SpeedHelpPart2": "Beachte, dass Steuerungskarten aufgrund von Kompatibilitätsproblemen möglicherweise keine entsprechenden RPM-Karten haben.",
-  "SpeedHelpPart3": "Es wird empfohlen, jeden Sensor in diesem Bereich seiner entsprechenden Steuerungskarte zuzuordnen. Verwende dazu die Option im Drei-Punkte-Menü einer Steuerungskarte und wähle die manuelle oder automatische Kopplung.",
-  "SpeedHelpPart4": "Sobald ein Drehzahlsensor gekoppelt ist, kannst du ihn ausblenden, um eine übersichtlichere Ansicht zu erhalten.",
-  "TwoPointsRequired": "Mindestens 2 Punkte erforderlich",
-  "UnexpectedErrorOccurred": "Ein unerwarteter Fehler ist aufgetreten und wurde im Fehlerprotokoll erfasst.",
-  "UnexpectedErrorSeeLog": "Ein unerwarteter Fehler ist aufgetreten. Für Details siehe Fehlerprotokoll.",
-  "WelcomeFanControl": "Willkommen bei Fan Control! 👋"
+{
+
+  "AscendingRpmValues": "Aufsteigende RPM-Werte",
+
+  "CalibrationCommand": "Befehl (%)",
+
+  "CalibrationControlCardInstructions": "Mit der folgenden Karte kannst du den Lüfter-%-Wert anpassen und die RPM beobachten.",
+
+  "CalibrationPointPercent": "Punkt-%",
+
+  "CalibrationSpeed": "Drehzahl (RPM)",
+
+  "CalibrationTable": "Kalibrierungstabelle",
+
+  "ControlHelpPart1": "Der Bereich \"Steuerungen\" zeigt jeden verfügbaren Header/Lüfter, der erkannt wurde.",
+
+  "ControlHelpPart2": "Du kannst entweder eine Lüfterkurve zuweisen oder über das Drei-Punkte-Menü jeder Karte in den manuellen Steuerungsmodus wechseln.",
+
+  "ControlHelpPart3": "Im Drei-Punkte-Menü jeder Karte kannst du einen Lüfterdrehzahlsensor aus dem unteren Abschnitt zuordnen, wodurch die RPM auf der Steuerungskarte angezeigt wird.",
+
+  "ControlHelpPart4": "Folgende erweiterte Optionen sind verfügbar, wenn du auf den unteren Bereich einer Karte klickst:",
+
+  "CurveHelpPart1": "Der Bereich \"Kurven\" zeigt alle erstellten Kurven.",
+
+  "CurveHelpPart2": "Um eine neue Kurve zu erstellen, klicke auf das große \"+\"-Symbol unten rechts und wähle aus den verfügbaren Typen.",
+
+  "CurveHelpPart3": "Um Details darüber zu erhalten, wie ein bestimmter Lüfterkurventyp funktioniert, füge ihn hinzu und klicke auf das Symbol oben links auf der Karte.",
+
+  "CustomSensorsHelpPart1": "Der Bereich \"Benutzerdefinierte Sensoren\" zeigt alle erstellten benutzerdefinierten Sensoren.",
+
+  "CustomSensorsHelpPart2": "Um einen neuen benutzerdefinierten Sensor zu erstellen, klicke auf das große \"+\"-Symbol unten rechts und wähle aus den verfügbaren Typen.",
+
+  "CustomSensorsHelpPart3": "Um Details darüber zu erhalten, wie ein bestimmter benutzerdefinierter Sensortyp funktioniert, füge ihn hinzu und klicke auf das Symbol oben links auf der Karte.",
+
+  "EULA": "EULA",
+
+  "FailedRefreshSleep": "Fehler beim Neuladen nach dem Aufwachen aus dem Ruhezustand",
+
+  "GraphCopy": "Diagramm kopieren",
+
+  "GraphPaste": "Diagramm einfügen",
+
+  "GraphSelectedPoint": "Ausgewählter Punkt:",
+
+  "HidePopup": "Dieses Popup in Zukunft ausblenden",
+
+  "InitFailedRetry": "Fan Control konnte nicht initialisiert werden. Erneuter Versuch …",
+
+  "ManualPairingInstruction": "Wähle den untenstehenden Drehzahlsensor aus, der auf diese Steuerung reagiert.",
+
+  "ManualPairingTip": "(Tipp: Setze den Schieberegler auf 0 % und sieh nach, welcher Lüfter langsamer wird/stehenbleibt)",
+
+  "OtherInstance": "Eine andere Instanz von FanControl lief unter dem Benutzer \"{0}\". Sie wurde geschlossen, um diese neue Instanz zu starten.",
+
+  "PaypalDialogPart1": "Nachricht vom Entwickler von Fan Control",
+
+  "PaypalDialogPart2": "Hey! Hier ist Rémi.",
+
+  "PaypalDialogPart3a": "Wie ich sehe, hast du einige Lüfterkurven eingerichtet, sehr schön! 🚀🙌",
+
+  "PaypalDialogPart3b": "Du hast noch keine Lüfterkurve erstellt, klicke auf den großen „+“-Button unten rechts, um loszulegen! 🚀🙌",
+
+  "PaypalDialogPart4": "Die Software wird kontinuierlich weiterentwickelt, um bessere Leistung, weniger Fehler, mehr Funktionen und eine bessere Benutzererfahrung zu bieten. Das erfordert Zeit und Aufwand.",
+
+  "PaypalDialogPart5": "Fan Control ist kostenlos, aber wenn es dir so gut gefällt, dass du es auf deinem Rechner einsetzt, denk doch mal darüber nach, über PayPal zu spenden oder mich auf Github zu unterstützen. Dafür wäre ich dir sehr dankbar! 😊",
+
+  "PaypalDialogPart6": "Falls du Probleme mit der Software hast oder einfach Feedback geben möchtest, gibt es einen E-Mail-Link im Bereich \"Über\", ansonsten kannst du auch die Github-Seite aufrufen.",
+
+  "PaypalDialogPart7": "Danke, dass du Fan Control benutzt! 🙏",
+
+  "PlatformNotSupported": "Dein Betriebssystem wird nicht unterstützt. Windows 10 oder höher ist erforderlich.",
+
+  "ReadEULA": "Nimm dir einen Moment Zeit, um die Endbenutzer-Lizenzvereinbarung zu lesen. Sie ist kurz, ich verspreche es. Du kannst sie später jederzeit im Abschnitt Über nachlesen.",
+
+  "RefreshingAfterSleep": "Fan Control neu geladen nach dem Aufwachen aus dem Ruhezustand",
+
+  "SpeedHelpPart1": "Der Bereich \"Drehzahlen\" zeigt jeden erkannten verfügbaren RPM-Sensor an.",
+
+  "SpeedHelpPart2": "Beachte, dass Steuerungskarten aufgrund von Kompatibilitätsproblemen möglicherweise keine entsprechenden RPM-Karten haben.",
+
+  "SpeedHelpPart3": "Es wird empfohlen, jeden Sensor in diesem Bereich seiner entsprechenden Steuerungskarte zuzuordnen. Verwende dazu die Option im Drei-Punkte-Menü einer Steuerungskarte und wähle die manuelle oder automatische Kopplung.",
+
+  "SpeedHelpPart4": "Sobald ein Drehzahlsensor gekoppelt ist, kannst du ihn ausblenden, um eine übersichtlichere Ansicht zu erhalten.",
+
+  "TwoPointsRequired": "Mindestens 2 Punkte erforderlich",
+
+  "UnexpectedErrorOccurred": "Ein unerwarteter Fehler ist aufgetreten und wurde im Fehlerprotokoll erfasst.",
+
+  "UnexpectedErrorSeeLog": "Ein unerwarteter Fehler ist aufgetreten. Für Details siehe Fehlerprotokoll.",
+
+  "WelcomeFanControl": "Willkommen bei Fan Control! 👋"
+
 }
